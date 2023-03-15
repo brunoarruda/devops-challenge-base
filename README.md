@@ -2,16 +2,16 @@
 
 ## tarefas do Challenge
 
-[x] Instale o Minikube e o Kubernetes no Ubuntu.
-[x] Crie um cluster Kubernetes no Minikube.
-[X] Crie um deployment do MySQL no cluster Kubernetes.
-[X] Crie um serviço para o deployment do MySQL, para que a aplicação possa se conectar a ele.
-[X] Crie um deployment da aplicação Java no cluster Kubernetes.
-[X] Exponha a aplicação através de um serviço do tipo NodePort, para que ela possa ser acessada a partir do host.
-[X] Adicione um health check à aplicação, para garantir que ela esteja funcionando corretamente.
-[X] Configure a aplicação para permitir a alteração da versão da imagem sem downtime.
-[X] Execute um stress test na aplicação para validar sua capacidade de lidar com cargas de trabalho pesadas.
-[X] Configure a aplicação para fazer o scaling horizontal com base na utilização de recursos.
+- [x] Instale o Minikube e o Kubernetes no Ubuntu.
+- [x] Crie um cluster Kubernetes no Minikube.
+- [X] Crie um deployment do MySQL no cluster Kubernetes.
+- [X] Crie um serviço para o deployment do MySQL, para que a aplicação possa se conectar a ele.
+- [X] Crie um deployment da aplicação Java no cluster Kubernetes.
+- [X] Exponha a aplicação através de um serviço do tipo NodePort, para que ela possa ser acessada a partir do host.
+- [X] Adicione um health check à aplicação, para garantir que ela esteja funcionando corretamente.
+- [X] Configure a aplicação para permitir a alteração da versão da imagem sem downtime.
+- [X] Execute um stress test na aplicação para validar sua capacidade de lidar com cargas de trabalho pesadas.
+- [X] Configure a aplicação para fazer o scaling horizontal com base na utilização de recursos.
 
 ## TODO
 
@@ -21,7 +21,8 @@
   - [X] terraform para deploy de ec2 com minikube
 - [X] subir o MySQL
   - [x] criar Application
-- [X] subir aplicação
+- [X] subir aplicação Java
+  - [ ] código da aplicação
   - [ ] pipeline para build da imagem
   - [ ] dockerfile
   - [X] criar manifestos K8s
